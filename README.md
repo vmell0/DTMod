@@ -14,7 +14,7 @@
 <h3>• Instalação Automática</h3> <br>
 
 ```sh
-apt update -y; apt install wget -y; wget https://raw.githubusercontent.com/vmell0/DTMod/main/i.sh; chmod 777 i.sh; ./i.sh
+apt update -y; apt install wget -y; wget https://raw.githubusercontent.com/endblack/painelMod/main/i.sh; chmod 777 i.sh; ./i.sh
 ```
 ✅ Adicionado um menu simples <br>
 • para acessar digite ```menuop``` <br>
@@ -28,9 +28,9 @@ apt update -y; apt install wget -y; wget https://raw.githubusercontent.com/vmell
 Primeiramente clone o projeto
 
 ```sh
-git clone https://github.com/vmell0/DTMod.git
+git clone https://github.com/endblack/painelMod.git
 ```
-Agora acesse a pasta ```cd DTMod``` e crie o arquivo ```.env```
+Agora acesse a pasta ```cd painelMod``` e crie o arquivo ```.env```
 
 ```cl
 PORT=                // 3000
