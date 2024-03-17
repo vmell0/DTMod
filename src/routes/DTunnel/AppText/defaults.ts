@@ -1,15 +1,15 @@
 const AppTextDefault = [
   {
     label: 'LBL_BTN_START',
-    text: 'INICIAR',
+    text: 'CONECTAR',
   },
   {
     label: 'LBL_BTN_STOPPING',
-    text: 'PARANDO',
+    text: 'DESCONECTANDO',
   },
   {
     label: 'LBL_BTN_STOP',
-    text: 'PARAR',
+    text: 'DESCONECTAR',
   },
   {
     label: 'LBL_BTN_RECONNECT',
@@ -25,7 +25,7 @@ const AppTextDefault = [
   },
   {
     label: 'LBL_CHOOSE_CONFIG',
-    text: 'ESCOLHA UMA CONFIGURAÇÃO',
+    text: 'SELECIONE O PROVEDOR',
   },
   {
     label: 'LBL_UUID',
@@ -33,7 +33,7 @@ const AppTextDefault = [
   },
   {
     label: 'LBL_USERNAME',
-    text: 'Nome de usuário',
+    text: 'Usuário',
   },
   {
     label: 'LBL_PASSWORD',
@@ -45,7 +45,7 @@ const AppTextDefault = [
   },
   {
     label: 'LBL_USERNAME_INVALID',
-    text: 'Nome de usuário inválido',
+    text: 'Usuário inválido',
   },
   {
     label: 'LBL_PASSWORD_INVALID',
@@ -285,11 +285,11 @@ const AppTextDefault = [
   },
   {
     label: 'LBL_CHECK_USER_TITLE',
-    text: 'INFO. DO USUÁRIO',
+    text: ' ',
   },
   {
     label: 'LBL_CHECK_USER_MESSAGE',
-    text: '👤 Nome de usuario: {username}<br>📆 Expira em: {expiration_date}<br>📅 Dias restantes: {expiration_days}<br>🚫 Conexoes: {count_connections}|{limit_connections}',
+    text: 'Olá, <font color="#BCBCBC"><u>{username}</u></font><br>═════════════════════<br>👤 VALIDADE DO SEU USUÁRIO 👤<br><font color="#BCBCBC">↳{expiration_date}↲</font><br><br>⌛ DIAS RESTANTES ⌛<br><font color="#BCBCBC">↳{expiration_days} DIAS↲</font>',
   },
   {
     label: 'LBL_NETWORK_STATUS',
@@ -393,11 +393,11 @@ const AppTextDefault = [
   },
   {
     label: 'LBL_LIMITER_TITLE',
-    text: 'LIMITER',
+    text: '📵 ACESSO BLOQUEADO 📵',
   },
   {
     label: 'LBL_LIMITER_TEXT',
-    text: 'Desculpe, mas atualmente o número máximo de conexões permitidas foi atingido. Por favor, tente novamente mais tarde ou entre em contato com o suporte para obter mais informações. Obrigado',
+    text: 'Desculpe, mas atualmente o número máximo de aparelhos permitido foi atingido. Por favor, tente novamente mais tarde ou entre em contato com o suporte para obter mais informações. Obrigado',
   },
   {
     label: 'LBL_VALIDATING_ACCESS',
