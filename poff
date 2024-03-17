@@ -2,5 +2,5 @@
 
 screen -r -S painel -X quit
 echo
-echo "PainelMod off"
+echo "DTMod off"
 echo
