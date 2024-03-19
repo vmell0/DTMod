@@ -78,7 +78,6 @@ clear
 echo
 echo
 echo "TUDO INSTALADO!"
-echo "Os Arquivos Ficam Na Pasta /root/DTMod"
 echo
 echo "Comando para ATIVAR: pon"
 echo "Comando para DESATIVAR: poff"

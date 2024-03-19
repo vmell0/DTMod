@@ -14,6 +14,8 @@ fazerbackup() {
   echo "painelbackup.zip salvo em /root"
   echo
   exit 0
+ }
+  dtmod
 }
 autobakcup() {
   clear
@@ -75,33 +77,49 @@ restaurarback() {
 #[[ ! -e /root/DTMod/src/index.ts ]] && exit 0
 dtmod() {
   clear
-  echo "Bem vindoª ao DTMod menu"
+  echo "Bem vindoª ao Menu DTMod"
   echo 
-  echo "1. Fazer backup"
-  echo "2. Restaurar backup"
-  echo "3. Reiniciar painel"
-  echo "4. Ativar Auto backup"
-  echo "5. Remover painel"
+  echo "1. Ligar painel"
+  echo "2. Reiniciar painel"
+  echo "3. Desligar painel"
+  echo "4. Fazer backup"
+  echo "5. Restaurar backup"
+  echo "6. Ativar Auto backup"
+  echo "7. Remover painel"
   echo "0. Sair"
   read -p "> " resp
   if [[ $resp = "1" ]]; then
     #statements
-    fazerbackup
+    clear
+	pon
+	echo "Painel ligado com sucesso!"
+    sleep 3
+    dtmod
   elif [[ $resp = "2" ]]; then
     #statements
-    restaurarback
-  elif [[ $resp = "3" ]]; then
-    #statements
-    clear
+	clear
     echo "Reiniciando..."
     pon
-    echo "Reiniciado com sucesso!"
+	echo "Reiniciado com sucesso!"
+    sleep 3
+    dtmod
+  elif [[ $resp = "3" ]]; then
+    #statements
+	clear
+	poff
+	echo "Painel desligado com sucesso!"
     sleep 3
     dtmod
   elif [[ $resp = "4" ]]; then
     #statements
     autobakcup
   elif [[ $resp = "5" ]]; then
+    #statements
+    restaurarback
+  elif [[ $resp = "6" ]]; then
+    #statements
+    autobakcup
+  elif [[ $resp = "7" ]]; then
     #statements
     removerpainel
   elif [[ $resp = "0" ]]; then
