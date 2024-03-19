@@ -58,8 +58,8 @@ apt-get install -y nodejs -y
 #=========================
 git clone https://github.com/vmell0/DTMod.git
 cd /root/DTMod
-chmod 777 pon poff dtmod backmod
-mv pon poff dtmod backmod /bin
+chmod 777 pon poff menuop backmod
+mv pon poff menuop backmod /bin
 echo "PORT=$porta" > .env
 echo "NODE_ENV=\"production\"" >> .env
 echo "DATABASE_URL=\"file:./database.db\"" >> .env
@@ -78,11 +78,12 @@ clear
 echo
 echo
 echo "TUDO INSTALADO!"
+echo "Os Arquivos Ficam Na Pasta /root/DTMod"
 echo
 echo "Comando para ATIVAR: pon"
 echo "Comando para DESATIVAR: poff"
 echo
-echo "Digite dtmod Para ver o menu"
+echo "Digite menuop Para ver o menu"
 echo
 rm /root/i.sh
 pon

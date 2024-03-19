@@ -14,10 +14,10 @@
 <h3>• Instalação Automática</h3> <br>
 
 ```sh
-apt update -y; apt install wget -y; wget https://raw.githubusercontent.com/vmell0/DTMod/main/i.sh; chmod 777 i.sh; ./i.sh
+apt update -y; apt install wget -y; wget https://raw.githubusercontent.com/endblack/DTMod/main/i.sh; chmod 777 i.sh; ./i.sh
 ```
 ✅ Adicionado um menu simples <br>
-• para acessar digite ```dtmod``` <br>
+• para acessar digite ```menuop``` <br>
 • Comando pra ativar/reiniciar ```pon``` <br>
 • Comando para desativar ```poff``` <br>
 
@@ -28,7 +28,7 @@ apt update -y; apt install wget -y; wget https://raw.githubusercontent.com/vmell
 Primeiramente clone o projeto
 
 ```sh
-git clone https://github.com/vmell0/DTMod.git
+git clone https://github.com/endblack/DTMod.git
 ```
 Agora acesse a pasta ```cd DTMod``` e crie o arquivo ```.env```
 
